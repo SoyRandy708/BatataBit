@@ -10,7 +10,7 @@
     --soft-orange: #FFE9D5;
     --secundary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
-    --warm-balck: #201E1C;
+    --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
     --off-white: #FAF8F7;
@@ -130,4 +130,71 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
-
+.monedas-table-title, .comisiones-table-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+}
+.monedas-table-title {
+    color: var(--bitcoin-orange);    
+}
+.comisiones-table-title {
+    color: var(--secundary-blue);
+}
+.monedas-table-container, .comisiones-table-container {
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--just-white);
+    box-shadow: 0px 0px 10px var(--grey);
+    border-radius: 15px;
+}
+.monedas-table-item, .comisiones-table-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monedas-table-item p, .comisiones-table-item p {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+}
+.monedas-table-item .down, .monedas-table-item .up {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.monedas-table-item .down {
+    background-image: url(../assets/icons/trending-down.svg);
+}
+.monedas-table-item .up {
+    background-image: url(../assets/icons/trending-up.svg);
+}
+.monedas-table-uptade, .comisiones-table-uptade {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.monedas-table-uptade {
+    background-color: var(--soft-orange);    
+}
+.comisiones-table-uptade {
+    background-color: var(--soft-blue);
+}
+.main-comisiones-table {
+    margin-top: 50px;
+}
