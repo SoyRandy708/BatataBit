@@ -131,6 +131,14 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+.main-tables-container {
+    display: flex;
+    height: 400px;
+    margin: 0 30px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x  proximity;
+}
 .monedas-table-title, .comisiones-table-title {
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -148,7 +156,8 @@ main {
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 0 auto;
+    scroll-snap-align: center;
+    margin: 0 10px;
     font-family: "Inter", sans-serif;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -195,9 +204,6 @@ main {
 }
 .comisiones-table-uptade {
     background-color: var(--soft-blue);
-}
-.main-comisiones-table {
-    margin-top: 50px;
 }
 .main-product-detail {
     position: relative;
@@ -324,13 +330,22 @@ main {
     font-weight: 500;
     color: #757575;
 }
+.plans-container-slider {
+    display: flex;
+    height: 316px;
+    margin: 0 30px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x  proximity;
+}
 .plans-container-card {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     box-shadow: 0 0 10px 1px var(--grey);
