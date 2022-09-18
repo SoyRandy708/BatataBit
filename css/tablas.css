@@ -1,0 +1,17 @@
+.main-tables-container {
+    overflow-x: unset;
+    justify-content: space-evenly;
+    min-width: 560px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+footer {
+    height: 100px;
+}
+.left ul {
+    display: flex;
+    flex-direction: row;
+}
+.left li {
+    margin: 10px 10px;
+}

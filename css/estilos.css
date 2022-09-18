@@ -133,7 +133,7 @@ main {
 }
 .main-tables-container {
     display: flex;
-    height: 350px;
+    height: 400px;
     margin: 0 30px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -332,7 +332,7 @@ main {
 }
 .plans-container-slider {
     display: flex;
-    height: 316px;
+    height: 320px;
     margin: 0 30px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -429,5 +429,5 @@ footer section {
 }
 .left a {
     text-decoration: none;
-    color: var(--just-white);
+    color: var(--just-white);    
 }
