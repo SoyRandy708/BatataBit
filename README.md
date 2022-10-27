@@ -4,3 +4,4 @@ Este es un proyecto del [Curso de Responsive Desing: Maquetacion Mobile First](h
 Link del proyecto final: https://soyrandy708.github.io/BatataBit/
 ***
 Author: Randy Ochoa Nuñez
+***
